@@ -1,6 +1,6 @@
-from confluent_kafka import Producer
 import uuid
 import json
+from confluent_kafka import Producer
 
 producer_config = Producer({'bootstrap.servers': 'localhost:9092'})
 
